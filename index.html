@@ -1,1 +1,314 @@
-Hello World
+<!doctype html>
+<html lang="es">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+	<meta name="description" content="Portafolio personal de Yanara Catrilelbun. Estudiante de Desarrollo y Diseño Web de DuocUC de Santiago de Chile, especializada en crear, diseñar y rediseñar sitios web profesionales, y en conseguir una experiencia de navegación simple, atractiva y satisfactoria para el usuario. Actualmente en búsqueda de práctica laboral y trabajos freelance. Aquí les presento mis avances, y mi CV.">
+	<meta name="keywords" content="yanara catrilelbun, portafolio diseño web, diseño web, diseñadora web, diseño santiago, sitios web santiago, diseño chile, diseño web santiago, yanara catrilelbun diseño, yanara catrilelbun diseñadora web, desarrollo web, diseño UX, front-end, diseño de sitios web profesionales, estudiante en práctica diseño web, diseñador web freelance">
+	<meta name="author" content="Yanara Catrilelbun">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	 <!--title incluye keywords que describen contenido de página web/ descripcion <70 caracteres-->
+    <title>Portafolio Diseño Web Yanara Catrilelbun | Santiago, Chile</title>
+	  <!--fonts-->
+	  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+	  <link href="https://fonts.googleapis.com/css?family=Roboto:100&display=swap" rel="stylesheet">
+	  <link href="https://fonts.googleapis.com/css?family=Major+Mono+Display&display=swap" rel="stylesheet">
+	  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
+	  
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<!--hoja de estilos CSS-->
+    <link rel="stylesheet" href="estilos.css">
+  </head>
+  <body>
+	<!--inicio header-->
+	  <header>
+		  <!--inicio nav-->
+		  <nav class="navbar navbar-expand-lg navbar-dark page-header">
+			  <a class="navbar-brand" href="#"><span class="logo">YANARA CATRILELBUN</span> <br> <span class="subt-logo">DISEÑADORA WEB</span></a>
+			  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			  </button>
+			  <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+				<ul class="navbar-nav ">
+				  <li class="nav-item active">
+					<a class="nav-link" href="#home">HOME <span class="sr-only">(current)</span></a>
+				  </li>
+				  <li class="nav-item">
+					<a class="nav-link" href="#about">SOBRE MÍ</a>
+				  </li>
+				  <li class="nav-item">
+					<a class="nav-link" href="#service">SERVICIOS</a>
+				  </li>
+				  <li class="nav-item">
+					<a class="nav-link" href="#portfolio">PORTAFOLIO</a>
+				  </li>
+				  <li class="nav-item">
+						<a class="nav-link flex-sm-fill text-sm-center" href="mailto:y.catrilelbun@desarrolloweb.cl, contact" tabindex="-1">CONTACTO</a>
+				  </li>
+				</ul>
+			  </div>
+			</nav>
+		  <!--BACKGROUND HEADER-->
+		    <video id="myVideo"  preload="auto" loop="loop" muted="muted" autoplay="true">
+			  <source src="video/hero_image.mp4" type="video/mp4">
+			</video>
+			<!-- overlay text to describe the video -->
+			<div class="content writting">
+			  <h1 class="back_overlay">
+				  <span class="salto texto-h1">Portafolio Diseño Web</span><span class="salto texto1-h1">Hola! Me llamo Yanara Catrilelbun, y soy Diseñadora Web</span><span class="typed-text"></span><span class="cursor"> | </span></h1>
+			</div>
+	  </header>
+	  <main class="container">
+		  <section class="row no-gutters welcome">
+			  <div class="col-sm-12 col-md-12 col-lg-12">
+				  <h2>Bienvenidos a mi portafolio</h2>
+				  <p class="text-left">¡Hola! Mi nombre es Yanara Catrilelbun, actualmente vivo en Santiago (Chile) y soy estudiante de Desarrollo y Diseño Web en Duoc UC. Este es mi portafolio, aquí puedes ver mis avances y descargar mi CV.</p>
+				  <p>Me especializo en crear, diseñar y rediseñar sitios web profesionales,y en conseguir una experiencia de navegación simple, atractiva y satisfactoria para el usuario.</p>
+				  <p>Me apasiona el arte, el diseño; y actualmente estoy en busca de oportunidades para realizar una práctica laboral en Diseño web Front-End y estoy disponible para trabajar en proyectos como freelancer. </p>
+	
+			      <p class="text-center">¿Tienes algún proyecto, idea o problema que quieras discutir?</p>
+				  <a class="btn btn-primary btn-lg" href="mailto:y.catrilelbun@desarrolloweb.cl" role="button">Hablemos!</a>
+				  <h3><a id="about"></a>Sobre mí</h3>
+				  <!--tabs para menu sobre mi con contenidos-->
+				  <button class="tablink" onclick="openPage('Home', this, '#4A6DD9')" id="defaultOpen">Sobre mí</button>
+				  <button class="tablink" onclick="openPage('News', this, '#4A6DD9')">En qué ando</button>
+				  <button class="tablink" onclick="openPage('Contact', this, '#4A6DD9' )">Más...</button>
+						 <ul>
+							 <li id="Home" class="tabcontent">
+								 <div class="row">
+									 <div class="col-sm-12 col-md-6 col-lg-6">
+										 <p>Estoy búsqueda de oportunidades para desarrollar y diseñar sitios web según requerimientos, así como actualizar, rediseñar, y crear contenido para medios digitales.</p>
+										 <p>Realizo Diseños de Interfaces intuitivos y atractivos, maqueteando con HTML5, CSS3, ajustados a los estándares de la W3C, y haciendo uso de herramientas como Dreamweaber, Photoshop, Ilustrator, y XD. </p>
+										 <p>Poseo conocimientos en Arquitectura de Información, y diseño UX lo que me permite analizar a los usuarios, sus contextos y comportamientos, para crear las mejores soluciones para cada proyecto y cliente.</p>
+										 <div class="amarillo">
+											  <a href="docs/web_developer_resume_template.pdf" class="btn btn-primary" download>Descargar curriculum</a>
+										 </div>
+										
+									 </div>
+									 <div class="col-sm-12 col-md-6 col-lg-6">
+										<div class="skills-wrap">
+										  <h4>Habilidades profesionales</h4>
+										  <div class="skill indigo">
+											<div class="percent">Arquitectura de Información</div>
+										  </div>
+										  <div class="skill blue">
+											<div class="percent">Diseño de Interfaz UX/UI</div>
+										  </div>
+										  <div class="skill cyan">
+											<div class="percent">Desarrollo Front-End</div>
+										  </div>
+										  <div class="skill aqua">
+											<div class="percent">SEO</div>
+										  </div>
+										   <div class="skill purple">
+											<div class="percent">Implementación de Frameworks</div>
+										  </div>
+										</div>
+
+									</div>
+									 </div>
+						   </li>
+
+						   <li id="News" class="tabcontent">
+								<div class="row">
+									<div class="col-sm-6 col-md-6 col-lg-6">
+										<p>Actualmente estoy a un semestre de egresar de Diseño y Desarrollo Web. Durante mi formación he adquirido competencias y conocimientos tales como:</p>
+								
+										<div class="skills-wrap">
+										  <h4>Lenguajes</h4>
+										  <div class="skill">
+											<div class="percent indigo" data-percent="100%">HTML/HTML5<span>90%</span></div>
+										  </div>
+										  <div class="skill">
+											<div class="percent blue" data-percent="100%">CSS/CSS3<span>90%</span></div>
+										  </div>
+										  <div class="skill">
+											<div class="percent cyan" data-percent="75%">JS/jQuery<span>60%</span></div>
+										  </div>
+										  <div class="skill">
+											<div class="percent aqua" data-percent="70%">PHP<span>65%</span></div>
+										  </div>
+										</div>
+
+										<div class="skills-wrap">
+										  <h4>Frameworks</h4>
+										  <div class="skill green">
+											<div class="percent">WordPress</div>
+										  </div>
+										  <div class="skill purple">
+											<div class="percent">Bootstrap</div>
+										  </div>
+										</div>
+
+										<div class="skills-wrap">
+										  <h4>Herramientas</h4>
+										  <div class="skill indigo">
+											<div class="percent">Adobe</div>
+										  </div>
+										</div>
+									</div>
+									<div class="col-sm-6 col-md-6 col-lg-6">
+										<p>Me siento cómoda trabajando con HTML5, CSS3 y jQuery, tengo conocimientos para crear sitios responsive y me entusiasma la idea de hacer de la web un lugar más amigable para todos sus usuarios. Uso Bootstrap, Wordpress, preprocesadores CSS como SASS y programas como(aunque muchos me odien por decir esto) Dreamweaver.</p>
+										
+										<p>A diario busco nuevos conocimientos, actividad indispensable para profesionales de este sector tan dinámico en el que nunca terminas de aprender.</p>
+										<img src="img/yanara_catrilelbun_contacto.svg" alt="imagen" class="img-fluid">
+									</div>
+							   </div>
+							 </li>
+
+							 <li id="Contact" class="tabcontent">
+								<div class="row amarillo">
+									<div class="col-sm-4 col-md-4 col-lg-4">
+										<img src="img/yanara_catrilelbun.jpg" alt="yanara catrilelbun foto" class="rounded-circle img-fluid my_picture">
+
+									
+									</div>
+									<div class="col-sm-8 col-md-8 col-lg-8">
+											<p>
+											Soy una persona con gran atención al detalle, apasionada por mi trabajo y autocrítica. Estoy en constante formación contínua, y además poseo formación en diversas áreas. Estudié Obstetricia y Puericultura en la Universidad de Chile, tengo conocimientos en Química y Farmacia (Pregrado- U. de Chile) y estoy en proceso de retomar mis estudios de Artes Visuales, en la Universidad Católica de Chile.
+										</p>
+									<div class="circles-small ">
+										<div class="circle-small frame">
+											<div class="text-circle">90%<br/><span class="small">Motivación</span></div>
+											<svg>
+												<circle class="bg" cx="40" cy="40" r="37"></circle>
+												<circle class="progress one" cx="40" cy="40" r="37"></circle>
+											</svg>
+										</div>
+										<div class="circle-small">
+											<div class="text-circle">80%<br/><span class="small">Autocrítica</span></div>
+											<svg>
+												<circle class="bg" cx="40" cy="40" r="37"></circle>
+												<circle class="progress one" cx="40" cy="40" r="37"></circle>
+											</svg>
+										</div>
+										<div class="circle-small">
+											<div class="text-circle">95%<br/><span class="small">Pasión</span>
+											</div>
+											<svg>
+												<circle class="bg" cx="40" cy="40" r="37"></circle>
+												<circle class="progress one" cx="40" cy="40" r="37"></circle>
+											</svg>
+									    </div>
+									</div>
+									</div>
+								 </div>
+							 </li>
+				  </ul>		
+			  </div>
+		  </section>
+		  <!--seccion servicios-->
+		  <section class="servicio row no-gutters">
+				<div class="col-sm-12 col-md-12 col-lg-12">
+					<h3><a id="service"></a>Servicios</h3>
+					<div class="row">
+					  <div class="col-sm-4 col-md-4 col-lg-4 text-center"> <img src="img/diseno_web.png" alt="diseno web" class="img-fluid">
+						<h4>Diseño web</h4>
+						<p> Diseño páginas web atractivas, que se adaptan a las necesidades y expectativas del usuario. Intentando en todo momento adecuar el diseño a una lógica acorde a cada proyecto y sus requerimientos.</p>
+					  </div>
+					  <div class="col-sm-4 col-md-4 col-lg-4 text-center"> <img src="img/desarrollo_web.png" alt="desarrollo web" class="img-fluid">
+						<h4 class="text-center">Desarrollo web</h4>
+						<p>
+							Consigo diseños atractivos que funcionan a la perfección en todos los navegadores, con un carácter funcional, adaptado a los estándares W3C y con interactividad que mejora la interfaz y la experiencia del usuario.
+						</p>
+					  </div>
+					  <div class="col-sm-4 col-md-4 col-lg-4 text-center"> <img src="img/ux_ui.png" alt="ux/ui" class="img-fluid">
+						<h4>Diseño UX</h4>
+						<p> Me especializo en la crear sitios web centrados en el usuario. Trabajo mejorando la experiencia digital, dando soluciones a problemas complejos u optimizando procesos, haciéndolos más sencillos e intuitivos. </p>
+					  </div>
+					</div>
+				</div>
+		  </section>
+
+		  <!--seccion portafolio-->
+		  
+		  <section class="row no-gutters">
+			  <div class="col-sm-12 col-md-12 col-lg-12">
+				  <h3><a id="portfolio"></a>Portafolio</h3>
+				   <ul class="portafolio">
+					  <li class="contenedor">
+						  <img class="image img-fluid" src="img/web_design.png" alt="imagen 1 portafolio yanara catrilelbun">
+						  <div class="overlay">
+							   <div class="text">
+								  <h4>Proyectos de Escuela</h4>
+							      <a class="btn btn-primary" href="html/projects_catrilelbun_portfolio.html" role="button">Ver más</a>
+							  </div>
+						  </div> 
+					  </li>
+				
+					  <li class="contenedor">
+						  <img class="image img-fluid" src="img/web_design_2.png" alt="imagen 3 portafolio yanara catrilelbun">
+						  <div class="overlay">
+							  <div class="text">
+								  <h4>Proyectos Personales</h4>
+							      <a class="btn btn-primary" href="html/projects_catrilelbun_portfolio.html" role="button">Ver más</a>
+							  </div>  
+						  </div>
+					  </li> 
+				  </ul>
+			  </div>
+		  </section>
+		  <!--seccion contacto-->
+		  <section class="row no-gutters">
+			  <div class="col-sm-12 col-md-12 col-lg-12">
+				  <h3><a id="contact"></a>Contacto</h3>
+				  <div class="row">
+					  <div class="col-sm-12 col-md-6 col-lg-6">
+						  <p> No soy amiga de los «overpromise», ni de hacer milagros, pero hago lo mejor que puedo para conseguir resultados.</p>
+						  <p>Si tienes un proyecto en mente y estás interesado en contratar mis servicios, no dudes en contactarte conmigo.
+							 Puedes enviarme un correo a: <a href="mailto:y.catrilelbun@desarrolloweb.cl">y.catrilelbun@desarrolloweb.cl</a>, o rellenar el formulario y responderé a la mayor brevedad posible.
+						  </p>
+						  <p>
+							 O si prefieres, también podemos conectar mediante redes sociales:
+						  </p>
+						  <ul class="social-icons">
+							  <li><a href="https://www.facebook.com/yanara.catrilelbun"><img src="img/facebook.png" class="img-fluid" alt="facebook"></a></li>
+							  <li><a href="https://www.instagram.com/yann_catlinn/"><img src="img/instagram.png" class="img-fluid" alt="instagram"></a></li>
+							  <li><a href="https://www.linkedin.com/in/yanara-catrilelbun-8a989888/"><img src="img/linkedin.png" class="img-fluid" alt="linkedins"></a></li>
+						  </ul>
+					  </div>
+					  <div class="col-sm-12 col-md-6 col-lg-6">
+							  <form action="formularios/gracias.html">
+
+								<input type="text" id="name" name="firstname" placeholder="Nombre..">
+								<input type="text" id="email" name="lastname" placeholder="Email.." required>
+								<input type="text" id="subject" name="lastname" placeholder="Asunto..">
+								<textarea id="message" name="message" placeholder="Mensaje.." style="height:200px" required></textarea>
+								  
+								<button type="submit" class="btn btn-primary">Enviar Mensaje</button>
+							
+							  </form>
+					  </div>
+				  </div>
+			  </div>
+		  </section>	  
+	  </main>
+
+	  <!--inicio footer-->
+	  <footer class="text-center">
+		  <p class="text-center">©Todos los derechos reservados. Diseñado y desarrollado por Yanara Catrilelbun.</p>
+			  <ul class="social-icons">
+				  <li><a href="https://www.facebook.com/yanara.catrilelbun"><img src="img/facebook.png" class="img-fluid" alt="facebook"></a></li>
+				  <li><a href="https://www.instagram.com/yann_catlinn/"><img src="img/instagram.png" class="img-fluid" alt="instagram"></a></li>
+				  <li><a href="https://www.linkedin.com/in/yanara-catrilelbun-8a989888/"><img src="img/linkedin.png" class="img-fluid" alt="linkedins"></a></li>
+			  </ul>
+	  </footer>
+
+   <!--fin footer-->
+
+    <!-- Optional JavaScript -->
+	
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	 <!--java writting effect-->
+	  <script src="js/writting_effect.js"></script>
+	   <!--java tabs effect-->
+	  <script src="js/tabs_aboutme.js"></script>
+	   <!--java progress circle effect-->
+	  <script src="js/progress_circle.js"></script>
+
+  </body>
+</html>
